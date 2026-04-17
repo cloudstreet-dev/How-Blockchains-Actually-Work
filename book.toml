@@ -1,0 +1,34 @@
+[book]
+title = "How Blockchains Actually Work (Without the Hype)"
+authors = ["David Liedle"]
+description = "Proof of Work vs Proof of Stake — real tradeoffs, real math, no hype. A patient engineer's tour of consensus, finality, Sybil resistance, and why blockchains are a solution to a very specific problem."
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/cloudstreet-dev/How-Blockchains-Actually-Work"
+edit-url-template = "https://github.com/cloudstreet-dev/How-Blockchains-Actually-Work/edit/main/{path}"
+site-url = "/How-Blockchains-Actually-Work/"
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.fold]
+enable = true
+level = 1
+
+[preprocessor.index]
