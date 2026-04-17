@@ -4,11 +4,15 @@
 
 A patient engineer's tour of consensus, finality, Sybil resistance, and why blockchains are a solution to a very specific problem. Skeptic-friendly. No token talk.
 
-**Read the book:** https://cloudstreet-dev.github.io/How-Blockchains-Actually-Work/
+**Read the book:** <https://cloudstreet-dev.github.io/How-Blockchains-Actually-Work/>
 
 ## Why this book
 
-Most blockchain writing is either marketing dressed as technology or academic papers written for people who already know. This book sits between: it assumes you know what a hash function is and what a distributed system looks like, and it walks you through the real engineering — including the parts that *don't* work, and the parts that are fine but oversold. Source is in [`src/`](src/). The book builds with mdBook and deploys to GitHub Pages via the workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+Most blockchain writing is either marketing dressed as technology or academic papers written for people who already know. This book sits between: it assumes you know what a hash function is and what a distributed system looks like, and it walks you through the real engineering — including the parts that *don't* work, and the parts that are fine but oversold.
+
+Fifteen chapters, from the problem (open-membership Byzantine agreement) to the primitives (hashes, signatures, Merkle trees) to a runnable ~120-line Python blockchain, then Proof of Work, Proof of Stake, finality, smart contracts, rollups, the ecosystem as it stands in 2026, and an honest list of what blockchains are and aren't good for.
+
+Source is in [`src/`](src/). The book builds with mdBook and deploys to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 ## Build locally
 
