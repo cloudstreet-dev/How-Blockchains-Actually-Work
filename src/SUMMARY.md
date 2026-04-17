@@ -1,10 +1,9 @@
 # Summary
 
-[Acknowledgments](acknowledgments.md)
+[Introduction: What This Book Is (And Isn't)](introduction.md)
 
 ---
 
-- [Introduction: What This Book Is (And Isn't)](introduction.md)
 - [The Problem: Distributed Trust Without a Trusted Third Party](ch01_the_problem.md)
 - [Sybil Attacks: Why Identity Is the Hard Problem](ch02_sybil.md)
 - [The Cryptographic Primitives You Actually Need](ch03_crypto_primitives.md)
@@ -19,3 +18,7 @@
 - [What Blockchains Are Actually Good For](ch12_what_good_for.md)
 - [The Part Where We Talk About the Money](ch13_the_money.md)
 - [Further Reading](ch14_further_reading.md)
+
+---
+
+[Acknowledgments](acknowledgments.md)
